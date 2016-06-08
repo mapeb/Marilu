@@ -1,0 +1,42 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+
+*.d
+*.mk
+
+Kernel/Debug/*
+Programa/Debug/*
+UMV/Debug/*
+CPU/Debug/*
+
+Kernel/Debug/src/commons/*
+Programa/Debug/src/commons/*
+UMV/Debug/src/commons/*
+CPU/Debug/src/commons/*
+
+Kernel/src/commons/*
+Programa/src/commons/*
+UMV/src/commons/*
+CPU/src/commons/*
